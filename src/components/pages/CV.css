@@ -1,14 +1,14 @@
-.bg-home {
+.bg-cv {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../../assets/wallpaper-1.jpg');
     background-size: contain;
 }
 
-.home-intro {
+.cv-intro {
     height: 90% !important;
 }
 
 @media (max-width: 991px) {
-    .home-intro {
+    .cv-intro {
         height: 80% !important;
     }
 }

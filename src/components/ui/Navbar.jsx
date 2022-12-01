@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
+    <nav className="navbar navbar-dark navbar-expand-lg bg-transparent border-bottom shadow">
         <span className='navbar-brand ms-5'>Laura Gutiérrez Álvarez</span>
         <div className="container-fluid justify-content-end">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
